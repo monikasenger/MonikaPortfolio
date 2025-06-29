@@ -31,8 +31,11 @@ export const technicalSkills = [
   { name: "GitHub", icon: "FaGithub" },
   { name: "Render", icon: "FaCloudUploadAlt" },
 
-  
+  // Tools & Analytics
+  { name: "Power BI", icon: "SiPowerbi" },
+  { name: "Microsoft Excel", icon: "SiMicrosoftexcel" }
 ];
+
 
 // Tools
 export const tools = [
@@ -66,7 +69,7 @@ export const projectList = [
   {
     title: "Inventory Management System",
     description: "Java + MySQL based desktop app to manage billing and stock tracking.",
-    tech: ["Java", "MySQL", "Swing"],
+     tech: ["Java", "MySQL", "Swing", "JDBC"],
     githubLink: "https://github.com/monikasenger/Inventory-Management-System",
   },
   
@@ -92,6 +95,24 @@ export const projectList = [
         ALL: "https://book-review-frontend-6pdt.onrender.com",
     }
   },
+  {
+  title: "Travel Management System",
+  description: "Java Swing + MySQL based desktop application to manage travel bookings, packages, hotels, and customer details.",
+  tech: ["Java", "MySQL", "Swing", "JDBC"],
+  githubLink: "https://github.com/monikasenger/TravelManagementSystem"
+},
+{
+  title: "College Management System",
+  description: "Java Swing + MySQL based desktop app to manage students, faculty, courses, and departments efficiently.",
+   tech: ["Java", "MySQL", "Swing", "JDBC"],
+  githubLink: "https://github.com/monikasenger/CollegeManagementSystem"
+},
+  {
+  title: "Hospital Management System",
+  description: "Java Swing + JDBC + MySQL based desktop application to manage patients, doctors, and appointments with login roles.",
+  tech: ["Java", "MySQL", "Swing", "JDBC"],
+  githubLink: "https://github.com/monikasenger/Hospital-Management-System"
+},
   {
     title: "Currency Converter",
     description: "Java console app that converts currency with user input and logic.",
